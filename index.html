@@ -9,22 +9,17 @@
     <!-- Vue.js -->
     <script type="text/javascript" src="node_modules/vue/dist/vue.js"></script>
     <!-- Bootstrap and JQuery -->
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <!-- App stylesheets -->
+    <link rel="stylesheet" href="style.css">
     <!-- App code -->
     <script type="text/javascript" src="index.js" defer></script>
 </head>
 <body>
-    <div id="app" class="container">
-        <div class="row">
-            <div class="the-cooler-container col-sm-5 align-self-center" style="height: 500px;">
-                <div class="logo"></div>
-                <input type="text" class="form-control" placeholder="AUTHENTICATION NAME">
-                <input type="password" class="form-control" placeholder="PASSWORD">
-                <input type="submit" class="btn btn-primary form-control" value="AUTHENTICATE" />
-            </div>
-        </div>
+    <div id="app">
+        <login-app></login-app>
     </div>
 </body>
 </html>
