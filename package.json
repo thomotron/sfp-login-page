@@ -1,0 +1,24 @@
+{
+  "name": "sfp-login",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomotron/sfp-login-page.git"
+  },
+  "author": "Thomotron",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/thomotron/sfp-login-page/issues"
+  },
+  "homepage": "https://github.com/thomotron/sfp-login-page#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.10"
+  }
+}
