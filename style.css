@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,700&display=swap');
+
+*
+{
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+body
+{
+    background: linear-gradient(90deg, #111 20px, transparent 1%) center, linear-gradient(#111 20px, transparent 1%) center, #333;
+    background-size: 22px 22px;
+}
+
+.the-cooler-container
+{
+    width: 400px;
+    height: 600px;
+    margin-top: calc(50vh - 300px - 70px); /* Perfect centre and an offset */
+    margin-right: auto;
+    /* margin-bottom: calc(50vh - 270px); */
+    margin-left: auto;
+}
+
+.the-cooler-container > *:not(:last-child)
+{
+    margin-bottom: 15px;
+}
+
+.logo
+{
+    width: 100%;
+    margin-bottom: 20px;
+
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    filter: drop-shadow();
+}
+
+.btn,
+.form-control
+{
+    border-radius: 0 !important;
+}
+
+input,
+button
+{
+    font-size: 16pt;
+    font-weight: bold;
+    line-height: 16px;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    text-transform: uppercase;
+
+    color: #eee;
+    border: solid 3px #555;
+    outline: none;
+    background-color: #111;
+}
+
+input:focus
+{
+    border-color: #fea115;
+}
+
+button
+{
+    cursor: pointer;
+
+    color: #111;
+    border-color: transparent;
+    background-color: #fea115;
+}
+
+button:hover
+{
+    color: #fea115;
+    border-color: #fea115;
+    background-color: #111;
+}
+
+input[type=password]
+{
+    letter-spacing: 5px;
+}
+input[type=password]::placeholder
+{
+    letter-spacing: normal !important;
+}
