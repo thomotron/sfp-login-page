@@ -40,7 +40,11 @@ Vue.component('login-app', {
                     // Check password
                     if (this.pass == credential.pass) {
                         // Print out a welcome message
-                        alert(`Welcome ${credential.displayableRank} ${credential.name}`);
+                        if (credential.displayableRank) {
+                            alert(`Welcome ${credential.displayableRank} ${credential.name}`);
+                        } else {
+                            alert(`Welcome ${credential.name}`)
+                        }
 
                         // Clear the credential fields
                         this.user = "";
