@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thomotron/sfp-login-page#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10"
   }
 }
